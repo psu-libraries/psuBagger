@@ -1,1 +1,321 @@
 
+
+---------------------------------------------
+
+Fri Apr  1 10:06:48 EDT 2016: Tricerabagger will now process the AIPs into bags and TAR them. This may take awhile, output is logged in /home/tallmann/bagging/logs/tricerabagger.txt.
+Archive:  1737.zip
+METS archive created by DSpace 1.8.2
+  inflating: 1737/mets.xml           
+  inflating: 1737/bitstream_13       
+Archive:  ITEM@2374.UC-1829.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1829/mets.xml  
+  inflating: ITEM@2374.UC-1829/bitstream_3928.pdf  
+  inflating: ITEM@2374.UC-1829/bitstream_3931  
+  inflating: ITEM@2374.UC-1829/bitstream_3930  
+  inflating: ITEM@2374.UC-1829/bitstream_3929  
+  inflating: ITEM@2374.UC-1829/bitstream_3932.txt  
+  inflating: ITEM@2374.UC-1829/bitstream_3933.txt  
+  inflating: ITEM@2374.UC-1829/bitstream_3934.jpeg  
+Archive:  ITEM@2374.UC-1830.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1830/mets.xml  
+  inflating: ITEM@2374.UC-1830/bitstream_3816.pdf  
+  inflating: ITEM@2374.UC-1830/bitstream_3819  
+  inflating: ITEM@2374.UC-1830/bitstream_3818  
+  inflating: ITEM@2374.UC-1830/bitstream_3817  
+  inflating: ITEM@2374.UC-1830/bitstream_3820.txt  
+  inflating: ITEM@2374.UC-1830/bitstream_3821.txt  
+  inflating: ITEM@2374.UC-1830/bitstream_3822.jpeg  
+Archive:  ITEM@2374.UC-1841.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1841/mets.xml  
+  inflating: ITEM@2374.UC-1841/bitstream_3823.pdf  
+  inflating: ITEM@2374.UC-1841/bitstream_3826  
+  inflating: ITEM@2374.UC-1841/bitstream_3825  
+  inflating: ITEM@2374.UC-1841/bitstream_3824  
+  inflating: ITEM@2374.UC-1841/bitstream_3827.txt  
+  inflating: ITEM@2374.UC-1841/bitstream_3828.txt  
+  inflating: ITEM@2374.UC-1841/bitstream_3829.jpeg  
+Archive:  ITEM@2374.UC-1842.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1842/mets.xml  
+  inflating: ITEM@2374.UC-1842/bitstream_3830.pdf  
+  inflating: ITEM@2374.UC-1842/bitstream_3833  
+  inflating: ITEM@2374.UC-1842/bitstream_3832  
+  inflating: ITEM@2374.UC-1842/bitstream_3831  
+  inflating: ITEM@2374.UC-1842/bitstream_3834.txt  
+  inflating: ITEM@2374.UC-1842/bitstream_3835.txt  
+  inflating: ITEM@2374.UC-1842/bitstream_3836.jpeg  
+Archive:  ITEM@2374.UC-1843.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1843/mets.xml  
+  inflating: ITEM@2374.UC-1843/bitstream_3837.pdf  
+  inflating: ITEM@2374.UC-1843/bitstream_3840  
+  inflating: ITEM@2374.UC-1843/bitstream_3839  
+  inflating: ITEM@2374.UC-1843/bitstream_3838  
+  inflating: ITEM@2374.UC-1843/bitstream_3841.txt  
+  inflating: ITEM@2374.UC-1843/bitstream_3842.txt  
+  inflating: ITEM@2374.UC-1843/bitstream_3843.jpeg  
+Archive:  ITEM@2374.UC-1844.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1844/mets.xml  
+  inflating: ITEM@2374.UC-1844/bitstream_3844.pdf  
+  inflating: ITEM@2374.UC-1844/bitstream_3847  
+  inflating: ITEM@2374.UC-1844/bitstream_3846  
+  inflating: ITEM@2374.UC-1844/bitstream_3845  
+  inflating: ITEM@2374.UC-1844/bitstream_3848.txt  
+  inflating: ITEM@2374.UC-1844/bitstream_3849.txt  
+  inflating: ITEM@2374.UC-1844/bitstream_3850.jpeg  
+Archive:  ITEM@2374.UC-1845.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1845/mets.xml  
+  inflating: ITEM@2374.UC-1845/bitstream_3851.pdf  
+  inflating: ITEM@2374.UC-1845/bitstream_3854  
+  inflating: ITEM@2374.UC-1845/bitstream_3853  
+  inflating: ITEM@2374.UC-1845/bitstream_3852  
+  inflating: ITEM@2374.UC-1845/bitstream_3855.txt  
+  inflating: ITEM@2374.UC-1845/bitstream_3856.txt  
+  inflating: ITEM@2374.UC-1845/bitstream_3857.jpeg  
+Archive:  ITEM@2374.UC-1846.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1846/mets.xml  
+  inflating: ITEM@2374.UC-1846/bitstream_3860  
+  inflating: ITEM@2374.UC-1846/bitstream_3859  
+  inflating: ITEM@2374.UC-1846/bitstream_3858  
+  inflating: ITEM@2374.UC-1846/bitstream_3861.txt  
+  inflating: ITEM@2374.UC-1846/bitstream_3862.pdf  
+  inflating: ITEM@2374.UC-1846/bitstream_3863.txt  
+  inflating: ITEM@2374.UC-1846/bitstream_3864.jpeg  
+Archive:  ITEM@2374.UC-1847.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1847/mets.xml  
+  inflating: ITEM@2374.UC-1847/bitstream_3865.pdf  
+  inflating: ITEM@2374.UC-1847/bitstream_3868  
+  inflating: ITEM@2374.UC-1847/bitstream_3867  
+  inflating: ITEM@2374.UC-1847/bitstream_3866  
+  inflating: ITEM@2374.UC-1847/bitstream_3869.txt  
+  inflating: ITEM@2374.UC-1847/bitstream_3870.txt  
+  inflating: ITEM@2374.UC-1847/bitstream_3871.jpeg  
+Archive:  ITEM@2374.UC-1848.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-1848/mets.xml  
+  inflating: ITEM@2374.UC-1848/bitstream_3872.pdf  
+  inflating: ITEM@2374.UC-1848/bitstream_3875  
+  inflating: ITEM@2374.UC-1848/bitstream_3874  
+  inflating: ITEM@2374.UC-1848/bitstream_3873  
+  inflating: ITEM@2374.UC-1848/bitstream_3876.txt  
+  inflating: ITEM@2374.UC-1848/bitstream_3877.txt  
+  inflating: ITEM@2374.UC-1848/bitstream_3878.jpeg  
+Archive:  731048.zip
+METS archive created by DSpace 1.8.2
+  inflating: 731048/mets.xml         
+  inflating: 731048/bitstream_1455744  
+Archive:  ITEM@2374.UC-731268.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-731268/mets.xml  
+  inflating: ITEM@2374.UC-731268/bitstream_1456570.rdf  
+  inflating: ITEM@2374.UC-731268/bitstream_1456532  
+  inflating: ITEM@2374.UC-731268/bitstream_1456569.csv  
+Archive:  ITEM@2374.UC-743972.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-743972/mets.xml  
+  inflating: ITEM@2374.UC-743972/bitstream_1537003.csv  
+  inflating: ITEM@2374.UC-743972/bitstream_1537004  
+  inflating: ITEM@2374.UC-743972/bitstream_1537005  
+  inflating: ITEM@2374.UC-743972/bitstream_1537006  
+  inflating: ITEM@2374.UC-743972/bitstream_1537007  
+  inflating: ITEM@2374.UC-743972/bitstream_1537008  
+Archive:  733208.zip
+METS archive created by DSpace 1.8.2
+  inflating: 733208/mets.xml         
+Archive:  ITEM@2374.UC-733209.zip
+METS archive created by DSpace 1.8.2
+  inflating: ITEM@2374.UC-733209/mets.xml  
+  inflating: ITEM@2374.UC-733209/bitstream_1467142.txt  
+  inflating: ITEM@2374.UC-733209/bitstream_1467143.jpeg  
+  inflating: ITEM@2374.UC-733209/bitstream_1467087.pdf  
+  inflating: ITEM@2374.UC-733209/bitstream_1467088.rdf  
+  inflating: ITEM@2374.UC-733209/bitstream_1467089  
+  inflating: ITEM@2374.UC-733209/bitstream_1467090.pdf  
+2016-04-01 10:06:49,025 - INFO - creating bag for directory /home/tallmann/bagging/content/1737
+2016-04-01 10:06:49,026 - INFO - creating data dir
+2016-04-01 10:06:49,026 - INFO - moving ITEM@2374.UC-1846 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1846
+2016-04-01 10:06:49,026 - INFO - moving ITEM@2374.UC-1829 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1829
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1843 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1843
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1842 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1842
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1830 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1830
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1845 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1845
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1847 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1847
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1844 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1844
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1848 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1848
+2016-04-01 10:06:49,027 - INFO - moving ITEM@2374.UC-1841 to /home/tallmann/bagging/content/1737/tmpvM9vio/ITEM@2374.UC-1841
+2016-04-01 10:06:49,027 - INFO - moving 1737 to /home/tallmann/bagging/content/1737/tmpvM9vio/1737
+2016-04-01 10:06:49,028 - INFO - moving /home/tallmann/bagging/content/1737/tmpvM9vio to data
+2016-04-01 10:06:49,028 - INFO - writing manifest-md5.txt
+2016-04-01 10:06:49,028 - INFO - writing manifest with 1 processes
+2016-04-01 10:06:49,064 - INFO - writing bagit.txt
+2016-04-01 10:06:49,064 - INFO - writing bag-info.txt
+2016-04-01 10:06:49,064 - INFO - writing /home/tallmann/bagging/content/1737/tagmanifest-md5.txt
+2016-04-01 10:06:49,110 - INFO - creating bag for directory /home/tallmann/bagging/content/731048
+2016-04-01 10:06:49,110 - INFO - creating data dir
+2016-04-01 10:06:49,110 - INFO - moving 731048 to /home/tallmann/bagging/content/731048/tmpFgTClm/731048
+2016-04-01 10:06:49,111 - INFO - moving ITEM@2374.UC-731268 to /home/tallmann/bagging/content/731048/tmpFgTClm/ITEM@2374.UC-731268
+2016-04-01 10:06:49,111 - INFO - moving ITEM@2374.UC-743972 to /home/tallmann/bagging/content/731048/tmpFgTClm/ITEM@2374.UC-743972
+2016-04-01 10:06:49,111 - INFO - moving /home/tallmann/bagging/content/731048/tmpFgTClm to data
+2016-04-01 10:06:49,111 - INFO - writing manifest-md5.txt
+2016-04-01 10:06:49,111 - INFO - writing manifest with 1 processes
+2016-04-01 10:06:49,113 - INFO - writing bagit.txt
+2016-04-01 10:06:49,113 - INFO - writing bag-info.txt
+2016-04-01 10:06:49,114 - INFO - writing /home/tallmann/bagging/content/731048/tagmanifest-md5.txt
+2016-04-01 10:06:49,156 - INFO - creating bag for directory /home/tallmann/bagging/content/733208
+2016-04-01 10:06:49,156 - INFO - creating data dir
+2016-04-01 10:06:49,157 - INFO - moving ITEM@2374.UC-733209 to /home/tallmann/bagging/content/733208/tmpNLsTsH/ITEM@2374.UC-733209
+2016-04-01 10:06:49,157 - INFO - moving 733208 to /home/tallmann/bagging/content/733208/tmpNLsTsH/733208
+2016-04-01 10:06:49,157 - INFO - moving /home/tallmann/bagging/content/733208/tmpNLsTsH to data
+2016-04-01 10:06:49,157 - INFO - writing manifest-md5.txt
+2016-04-01 10:06:49,157 - INFO - writing manifest with 1 processes
+2016-04-01 10:06:49,183 - INFO - writing bagit.txt
+2016-04-01 10:06:49,183 - INFO - writing bag-info.txt
+2016-04-01 10:06:49,183 - INFO - writing /home/tallmann/bagging/content/733208/tagmanifest-md5.txt
+cin.dspace.1737/
+cin.dspace.1737/manifest-md5.txt
+cin.dspace.1737/data/
+cin.dspace.1737/data/ITEM@2374.UC-1846/
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3863.txt
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3864.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3861.txt
+cin.dspace.1737/data/ITEM@2374.UC-1846/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3859
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3858
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3860
+cin.dspace.1737/data/ITEM@2374.UC-1846/bitstream_3862.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1829/
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3933.txt
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3928.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3929
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3930
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3932.txt
+cin.dspace.1737/data/ITEM@2374.UC-1829/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3934.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1829/bitstream_3931
+cin.dspace.1737/data/ITEM@2374.UC-1843/
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3843.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3842.txt
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3839
+cin.dspace.1737/data/ITEM@2374.UC-1843/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3837.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3838
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3841.txt
+cin.dspace.1737/data/ITEM@2374.UC-1843/bitstream_3840
+cin.dspace.1737/data/ITEM@2374.UC-1842/
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3830.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3835.txt
+cin.dspace.1737/data/ITEM@2374.UC-1842/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3834.txt
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3833
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3836.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3832
+cin.dspace.1737/data/ITEM@2374.UC-1842/bitstream_3831
+cin.dspace.1737/data/ITEM@2374.UC-1830/
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3818
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3816.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3820.txt
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3821.txt
+cin.dspace.1737/data/ITEM@2374.UC-1830/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3819
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3822.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1830/bitstream_3817
+cin.dspace.1737/data/ITEM@2374.UC-1845/
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3854
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3852
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3857.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3851.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3856.txt
+cin.dspace.1737/data/ITEM@2374.UC-1845/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3855.txt
+cin.dspace.1737/data/ITEM@2374.UC-1845/bitstream_3853
+cin.dspace.1737/data/ITEM@2374.UC-1847/
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3866
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3869.txt
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3870.txt
+cin.dspace.1737/data/ITEM@2374.UC-1847/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3868
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3867
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3871.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1847/bitstream_3865.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1844/
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3847
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3846
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3848.txt
+cin.dspace.1737/data/ITEM@2374.UC-1844/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3845
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3849.txt
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3844.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1844/bitstream_3850.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1848/
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3873
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3872.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3874
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3876.txt
+cin.dspace.1737/data/ITEM@2374.UC-1848/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3875
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3877.txt
+cin.dspace.1737/data/ITEM@2374.UC-1848/bitstream_3878.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1841/
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3826
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3825
+cin.dspace.1737/data/ITEM@2374.UC-1841/mets.xml
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3829.jpeg
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3823.pdf
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3828.txt
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3827.txt
+cin.dspace.1737/data/ITEM@2374.UC-1841/bitstream_3824
+cin.dspace.1737/data/1737/
+cin.dspace.1737/data/1737/mets.xml
+cin.dspace.1737/data/1737/bitstream_13
+cin.dspace.1737/aptrust-info.txt
+cin.dspace.1737/bag-info.txt
+cin.dspace.1737/tagmanifest-md5.txt
+cin.dspace.1737/bagit.txt
+cin.dspace.731048/
+cin.dspace.731048/manifest-md5.txt
+cin.dspace.731048/data/
+cin.dspace.731048/data/731048/
+cin.dspace.731048/data/731048/bitstream_1455744
+cin.dspace.731048/data/731048/mets.xml
+cin.dspace.731048/data/ITEM@2374.UC-731268/
+cin.dspace.731048/data/ITEM@2374.UC-731268/bitstream_1456569.csv
+cin.dspace.731048/data/ITEM@2374.UC-731268/bitstream_1456570.rdf
+cin.dspace.731048/data/ITEM@2374.UC-731268/mets.xml
+cin.dspace.731048/data/ITEM@2374.UC-731268/bitstream_1456532
+cin.dspace.731048/data/ITEM@2374.UC-743972/
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537006
+cin.dspace.731048/data/ITEM@2374.UC-743972/mets.xml
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537003.csv
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537005
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537008
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537007
+cin.dspace.731048/data/ITEM@2374.UC-743972/bitstream_1537004
+cin.dspace.731048/aptrust-info.txt
+cin.dspace.731048/bag-info.txt
+cin.dspace.731048/tagmanifest-md5.txt
+cin.dspace.731048/bagit.txt
+cin.dspace.733208/
+cin.dspace.733208/manifest-md5.txt
+cin.dspace.733208/data/
+cin.dspace.733208/data/ITEM@2374.UC-733209/
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467089
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467143.jpeg
+cin.dspace.733208/data/ITEM@2374.UC-733209/mets.xml
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467087.pdf
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467142.txt
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467090.pdf
+cin.dspace.733208/data/ITEM@2374.UC-733209/bitstream_1467088.rdf
+cin.dspace.733208/data/733208/
+cin.dspace.733208/data/733208/mets.xml
+cin.dspace.733208/aptrust-info.txt
+cin.dspace.733208/bag-info.txt
+cin.dspace.733208/tagmanifest-md5.txt
+cin.dspace.733208/bagit.txt
+Fri Apr  1 10:06:49 EDT 2016: Tricerabagger is done.

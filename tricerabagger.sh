@@ -19,7 +19,8 @@ for f in */ ; do
       mkdir $id
       unzip $z -d $id/ >> $LOG 2>&1
       rm $z
-   done
+      rename \@ _ */
+    done
   cd ../
 done
 
@@ -57,7 +58,7 @@ done
 # push bags
 if [ "$1" = "-push" ]; then
   for i in *.tar; do
-    aws s3 cp $i s3://aptrust.receiving.uc.edu
+    aws s3 cp $i s3://aptrust.receiving.uc.edu 2>&1 | tee -a $LOG
   done
 fi
 

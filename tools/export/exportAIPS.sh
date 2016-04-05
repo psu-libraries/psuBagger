@@ -25,7 +25,7 @@ chmod -R 777 $CON  >> $LOG 2>&1
 
 # Copy AIPs to DigProj, the dspace user on libdspprod has a key stored on digproj
 echo "Copied all AIPs to DigProj." >> $LOG 2>&1
-rsync -aqe ssh $CON/* $DES >> $LOG 2>&1
+rsync -acqe ssh $CON/* $DES >> $LOG 2>&1
 
 # Delete AIPs
 rm -rf $CON/*

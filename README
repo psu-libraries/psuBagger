@@ -1,3 +1,7 @@
 # Tricerabagger
 
 Helpful information will eventually go here.
+
+AWS CLI must be configured for each user who sends content to APTrust or runs the tricerabagger scripts. As of 2106-12-16, permission were not as we had discussed so I frequently have to do things as sudo. tallmann and root both have AWS credentials configured. 
+
+/usr/local/bin/aws http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html

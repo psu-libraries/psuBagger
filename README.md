@@ -13,6 +13,9 @@ Helpful information will eventually go here.
 ## eraserBagger.sh
   * This script needs to be updated to use the APTrust member API. psuBagger adds the bag ID to a text file. eraserBagger checks those IDs against what has been ingested at APTrust. When a bag is fully ingested, eraserBagger will remove the bag from staging.
 
-AWS CLI must be configured for each user who sends content to APTrust or runs the psuBagger scripts, this includes `sudo`. 
-  * /usr/local/bin/aws 
-  * [http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
+## Dependencies
+  * AWS CLI must be configured for each user who sends content to APTrust or runs the psuBagger scripts, this includes `sudo`. 
+    * /usr/local/bin/aws 
+    * [http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+  * bagit-python will need to be separately downloaded to psuBagger/tools/bagit-python.

@@ -6,15 +6,15 @@ set -e
 # Variables
 LOCAL=/bagging
 CON=/mnt/preservationii/bagging_tests/pstsc/pstsc_02470
-BAGPY=$LOCAL/tricerabagger/tools/bagit-python/bagit.py
-LOG=$LOCAL/tricerabagger/logs/tricerabagger.txt
+BAGPY=$LOCAL/psuBagger/tools/bagit-python/bagit.py
+LOG=$LOCAL/psuBagger/logs/psuBagger.txt
 DATE=`date +%Y-%m-%d`
 NAME="The Pennsylvania State University Collection on Joseph Priestley"
 DESC="$NAME content as of $DATE"
 BAGID=psu.edu.pstsc.02470.$DATE
 
 echo -e "\n--------------------------------------------\n" >> $LOG 2>&1
-echo "$(date): Tricerabagger will now process the $NAME data into a bag and TAR it. This may take awhile, output is logged in $LOG." 2>&1 | tee -a $LOG
+echo "$(date): psuBagger will now process the $NAME data into a bag and TAR it. This may take awhile, output is logged in $LOG." 2>&1 | tee -a $LOG
 
 # Remove Mac and Windows system files
 find $CON -iname '.DS_Store' -type f -delete
@@ -38,7 +38,7 @@ tar -cvf $BAGID.tar $BAGID/ >> $LOG 2>&1
 echo "$BAGID.tar has been created." 2>&1 | tee -a $LOG
 
 # Add BAGID to list of sent bags so ingest status can be monitored.
-echo "$BAGID" >> $LOCAL/tricerabagger/logs/sentBags.txt
+echo "$BAGID" >> $LOCAL/psuBaggeragger/logs/sentBags.txt
 
 while getopts "s" OPT; do
   case $OPT in
@@ -51,4 +51,4 @@ while getopts "s" OPT; do
   esac
 done
 
-echo "$(date): Tricerabagger is done." 2>&1 | tee -a $LOG
+echo "$(date): psuBagger is done." 2>&1 | tee -a $LOG

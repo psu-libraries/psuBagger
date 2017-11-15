@@ -3,14 +3,14 @@
 # 2017-01-10 -- Is not erasing local copy right now, need to adjust code for this -- need to determine location 
 
 # Variables
-LOCAL=/mnt/libbag/tools/tricerabagger
+LOCAL=/mnt/libbag/tools/psuBagger
 CON=/mnt/libbag/
-LOG=$LOCAL/logs/tricerabagger.txt
+LOG=$LOCAL/logs/psuBagger.txt
 SENT=$LOCAL/logs/sentBags.txt
 DEL=$LOCAL/logs/delBags.txt
 
 echo -e "\n---------------------------------------------\n" >> $LOG 2>&1
-echo "$(date): Tricerabagger Eraser will check the status of new bags sent to APTrust. If the bag has been ingested at APTrust, local bag files will be removed. Output will be sent to $LOG." 2>&1 | tee -a $LOG
+echo "$(date): psuBagger Eraser will check the status of new bags sent to APTrust. If the bag has been ingested at APTrust, local bag files will be removed. Output will be sent to $LOG." 2>&1 | tee -a $LOG
 
 
 # Test to see if there are any unconfirmed bags, if none, exit script.
@@ -30,8 +30,8 @@ if [[ -s $SENT ]] ; then
    done < $SENT
 else
   echo "No new bags have been sent, everything sent has been ingested at APTrust already." 2>&1 | tee -a $LOG
-  echo -e "\n$(date): Tricerabagger Eraser  has finished." 2>&1 | tee -a $LOG
+  echo -e "\n$(date): psuBagger Eraser  has finished." 2>&1 | tee -a $LOG
   exit 1
 fi
 
-echo -e "\n$(date): Tricerabagger Eraser has finished." 2>&1 | tee -a $LOG
+echo -e "\n$(date): psuBagger Eraser has finished." 2>&1 | tee -a $LOG

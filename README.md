@@ -6,7 +6,8 @@
     * $CON for the path to the content
     * $NAME for the bag name
     * $BAGID for the bag ID.
- * Minimal output will be directed to the terminal, most logging is done in /bagging/psuBagger/logs/psuBagger.txt
+ * Minimal output will be directed to the terminal, verbose logging is in /bagging/psuBagger/logs/psuBagger.txt
+ * Use the `-s` option to send the bag to APTrust.
 
 ## eraserBagger.sh
   * This script needs to be updated to use the APTrust member API. psuBagger adds the bag ID to a text file. eraserBagger checks those IDs against what has been ingested at APTrust. When a bag is fully ingested, eraserBagger will remove the bag from staging.

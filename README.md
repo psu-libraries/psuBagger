@@ -1,7 +1,5 @@
 # PSU Bagger
 
-Helpful information will eventually go here.
-
 ## directoryBagger.sh
  * This script may be used to convert any directory into an APTrust bag. It will bag in-place, not output a new directory. As of 2017-11-15, it must be run as the sudo user.
  * Variables in the script need to be changed each time it is used: 

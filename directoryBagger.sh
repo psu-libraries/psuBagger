@@ -22,7 +22,7 @@ find $CON -iname '._.DS_Store' -type f -delete
 find $CON -iname 'Thumbs.db' -type f -delete
 
 # Create bag
-$BAGPY --md5 $CON --processes 2 --source-organization="Penn State University Libraries" --bag-count="1 of 1" --internal-sender-identifier="$BAGID" --internal-sender-description="$DESC" >> $LOG 2>&1
+$BAGPY --md5 $CON --processes 6 --source-organization="Penn State University Libraries" --bag-count="1 of 1" --internal-sender-identifier="$BAGID" --internal-sender-description="$DESC" >> $LOG 2>&1
 
 # Add aptrust-info.txt
 cd $CON

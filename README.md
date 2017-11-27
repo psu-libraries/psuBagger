@@ -18,3 +18,4 @@
     * /usr/local/bin/aws 
     * [http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
   * bagit-python will need to be separately downloaded to psuBagger/tools/bagit-python.
+  * [APTrust Partner Tools](https://wiki.aptrust.org/Partner_Tools#Config_Fi) require a configuration file for each user to be established in advance.

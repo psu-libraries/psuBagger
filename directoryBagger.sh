@@ -20,6 +20,10 @@ echo "$(date): psuBagger will now process the $NAME data into a bag and TAR it. 
 find $CON -iname '.DS_Store' -type f -delete
 find $CON -iname '._.DS_Store' -type f -delete
 find $CON -iname 'Thumbs.db' -type f -delete
+find $CON -iname '.apdisk' -type f -delete
+find $CON -iname '._.apdisk' -type f -delete
+find $CON -iname '.BridgeLabelsAndRatings' -type f -delete
+find $CON -iname '.TemporaryItems' -type f -delete
 
 # Create bag
 $BAGPY --md5 $CON --processes 6 --source-organization="Penn State University Libraries" --bag-count="1 of 1" --internal-sender-identifier="$BAGID" --internal-sender-description="$DESC" >> $LOG 2>&1

@@ -1,17 +1,17 @@
 #!/bin/bash
-set -e
+#set -e
 
 # Updated 2017-10-13 by Nathan Tallman
 
 # Variables
 LOCAL=/bagging
-CON=/mnt/preservationii/bagging_tests/pstsc/pstsc_02470
+CON=/mnt/preservationii/bagging/pstma_dockMiraForestry
 BAGPY=$LOCAL/psuBagger/tools/bagit-python/bagit.py
 LOG=$LOCAL/psuBagger/logs/psuBagger.txt
 DATE=`date +%Y-%m-%d`
-NAME="The Pennsylvania State University Collection on Joseph Priestley"
-DESC="$NAME content as of $DATE"
-BAGID=psu.edu.pstsc.02470.$DATE
+NAME="Mira Dock Lantern Slides Records"
+DESC="$NAME content as of $DATE."
+BAGID=psu.edu.pstma_dockMiraForestry.$DATE
 
 echo -e "\n--------------------------------------------\n" >> $LOG 2>&1
 echo "$(date): psuBagger will now process the $NAME data into a bag and TAR it. This may take awhile, output is logged in $LOG." 2>&1 | tee -a $LOG
@@ -22,7 +22,7 @@ find $CON -iname '._.DS_Store' -type f -delete
 find $CON -iname 'Thumbs.db' -type f -delete
 find $CON -iname '.apdisk' -type f -delete
 find $CON -iname '._.apdisk' -type f -delete
-find $CON -iname '.BridgeLabelsAndRatings' -type f -delete
+find $CON -iname '.Bridge*' -type f -delete
 find $CON -iname '.TemporaryItems' -type f -delete
 
 # Create bag
@@ -42,7 +42,7 @@ tar -cvf $BAGID.tar $BAGID/ >> $LOG 2>&1
 echo "$BAGID.tar has been created." 2>&1 | tee -a $LOG
 
 # Add BAGID to list of sent bags so ingest status can be monitored.
-echo "$BAGID" >> $LOCAL/psuBaggeragger/logs/sentBags.txt
+# echo "$BAGID" >> $LOCAL/psuBaggeragger/logs/sentBags.txt
 
 while getopts "s" OPT; do
   case $OPT in

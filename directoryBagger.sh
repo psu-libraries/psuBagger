@@ -48,6 +48,7 @@ while getopts "s" OPT; do
   case $OPT in
     s)
       /usr/bin/aws s3 cp $CON/*.tar s3://aptrust.receiving.psu.edu 2>&1 | tee -a $LOG && echo "$BAGID.tar has been sent to APTrust." 2>&1 | tee -a $LOG
+      # $LOCAL/psuBagger/tools/aptrustPartnerTools/apt_upload $BAGID.tar  2>&1 | tee -a $LOG && echo "$BAGID.tar has been sent to APTrust." 2>&1 | tee -a $LOG
       ;;
     \?)
       echo "Invalid option: -$OPTARG" 2>&1 | tee -a $LOG

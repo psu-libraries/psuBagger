@@ -2,12 +2,14 @@
 
 ## directoryBagger.sh
  * This script may be used to convert any directory into an APTrust bag. It will bag in-place, not output a new directory. As of 2017-11-15, it must be run as the sudo user.
- * Variables in the script need to be changed each time it is used: 
-    * $CON for the path to the content
-    * $NAME for the bag name
-    * $BAGID for the bag ID.
- * Minimal output will be directed to the terminal, verbose logging is in /bagging/psuBagger/logs/psuBagger.txt
+ * The following arguments must be used for the script to work.
+    * `-i` for the identifier of the content being bagged
+    * `-n` for the name of the content being bagged
+    * `-p` for the absolute path to the content being bagged
  * Use the `-s` option to send the bag to APTrust.
+ * Minimal output will be directed to the terminal, verbose logging is in `/bagging/psuBagger/logs/psuBagger.txt`
+ * Example usage:
+   * `sudo ./psuBagger.sh -i pstsc_01417 -n "Three Mile Island Records" -p /mnt/preservationii/bagging/pstsc_01417`
 
 ## eraserBagger.sh
   * This script needs to be updated to use the APTrust member API. psuBagger adds the bag ID to a text file. eraserBagger checks those IDs against what has been ingested at APTrust. When a bag is fully ingested, eraserBagger will remove the bag from staging.

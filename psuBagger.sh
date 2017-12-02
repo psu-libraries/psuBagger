@@ -3,6 +3,7 @@
 
 # Updated 2017-12-02 by Nathan Tallman
 
+# Need to make the script fail to run if these arguments aren't present.
 while getopts i:n:p: option
 do
  case "$option"

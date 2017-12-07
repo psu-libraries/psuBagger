@@ -33,6 +33,8 @@ find $path -iname '.apdisk' -type f -delete
 find $path -iname '._.apdisk' -type f -delete
 find $path -iname '.Bridge*' -type f -delete
 find $path -iname '.TemporaryItems' -type f -delete
+find $path -iname '.Trashes' -delete
+find $path -iname '._.Trashes' -delete
 
 # Create bag
 $bagpy --md5 $path --processes 6 --source-organization="Penn State University Libraries" --bag-count="1 of 1" --internal-sender-identifier="$bagid" --internal-sender-description="$desc" >> $log 2>&1
@@ -48,7 +50,8 @@ mv * $bagid/ >> $log 2>&1
 tar -cvf $bagid.tar $bagid/ >> $log 2>&1
 echo "$bagid.tar has been created." 2>&1 | tee -a $log
 
-# Send the bag to APTrust if the -u argument is used
+# Send the bag to APTrust if the -u argument is used.
+# Should find a way to only allow this to happen if the above is successful.
 while getopts "u" OPT; do
   case $OPT in
     s)

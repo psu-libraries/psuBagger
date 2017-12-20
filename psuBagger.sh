@@ -1,7 +1,7 @@
 #!/bin/bash
-#set -e
+set -e
 
-# Updated 2017-12-02 by Nathan Tallman
+# Updated 2017-12-19 by Nathan Tallman
 
 # Need to make the script fail to run if these arguments aren't present.
 while getopts i:n:p: option
@@ -46,21 +46,8 @@ echo "Access: Institution" >> aptrust-info.txt
 
 # Tar bags
 mkdir $bagid >> $log 2>&1
-mv * $bagid/ >> $log 2>&1
+mv !($bagid) $bagid/ >> $log 2>&1
 tar -cvf $bagid.tar $bagid/ >> $log 2>&1
 echo "$bagid.tar has been created." 2>&1 | tee -a $log
-
-# Send the bag to APTrust if the -u argument is used.
-# Should find a way to only allow this to happen if the above is successful.
-while getopts "u" OPT; do
-  case $OPT in
-    s)
-      $local/tools/aptrustPartnerTools/apt_upload $bagid.tar  2>&1 | tee -a $log && echo "$bagid.tar has been sent to APTrust." 2>&1 | tee -a $log && echo "$bagid" >> $local/logs/sentBags.txt
-      ;;
-    \?)
-      echo "Invalid option: -$OPTARG" 2>&1 | tee -a $log
-      ;;
-  esac
-done
 
 echo "$(date): psuBagger is done." 2>&1 | tee -a $log

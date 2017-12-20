@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#set -e
 
 # Updated 2017-12-19 by Nathan Tallman
 
@@ -46,7 +46,7 @@ echo "Access: Institution" >> aptrust-info.txt
 
 # Tar bags
 mkdir $bagid >> $log 2>&1
-mv !($bagid) $bagid/ >> $log 2>&1
+mv * $bagid/ >> $log 2>&1
 tar -cvf $bagid.tar $bagid/ >> $log 2>&1
 echo "$bagid.tar has been created." 2>&1 | tee -a $log
 

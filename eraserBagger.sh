@@ -17,7 +17,7 @@ echo "$(date): psuBagger Eraser will check the status of new bags sent to APTrus
 if [[ -s $SENT ]] ; then
   # Read $DEL, for each line check if the bag has arrived at APTrust. If it was, delete local files.
   while read i; do
-    if [ $(curl -s -N "URL" -H "Content-Type: application/json" -H "Accept: application/json" -H "X-Fluctus-API-User: tallmann@ucmail.uc.edu" -H "X-Fluctus-API-Key: 06d864ef2a5d8d1f3ff16de9c845281b23da8859"  "https://repository.aptrust.org/member-api/v1/items?name_exact=$i.tar&status=success" | $LOCAL/tools/jq/jq-linux64 'any(.results[]|.name; contains("'$i.tar'"))') == "true" ]; then
+    if [ $(curl -s -N "URL" -H "Content-Type: application/json" -H "Accept: application/json" -H "X-Fluctus-API-User: ntt7@psu.edu" -H "X-Fluctus-API-Key: "  "https://repository.aptrust.org/member-api/v1/items?name_exact=$i.tar&status=success" | $LOCAL/tools/jq/jq-linux64 'any(.results[]|.name; contains("'$i.tar'"))') == "true" ]; then
       rm -rf $CON/$i/ $CON/$i.tar && echo "Bag $i has been ingested at APTrust. All local bag files have been removed." 2>&1 | tee -a $LOG
       echo "$i" >> $DEL
     fi
